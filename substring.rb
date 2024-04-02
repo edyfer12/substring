@@ -7,13 +7,14 @@ dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 "low", "own", "part", "partner", "sit"]
 #Create a hash collection to store words of dictionary as a key and number of words as value
 word_collection = {}
+#Convert the string into an array
 arr = "howdy partner, sit down! how's it going".split(" ")
-#From the word "below", check if the substring of the word exists in the dictionary
-#Does original word match with the substring dictionary[0]? Yes
+#From the array, check if the element includes the substring in the dictionary
 #Add word as a key to the hash
 #Increment the word count of the key as a value
 #Repeat the process
 dictionary.each do |word|
+    #Set increment to 0
     increment = 0
     arr.each do |substring|
         if substring.include?(word)
