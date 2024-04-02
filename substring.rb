@@ -9,7 +9,7 @@ def substrings(string, dictionary)
     #Create a hash collection to store words of dictionary as a key and number of words as value
     word_collection = {}
     #Convert the string into an array
-    arr = "howdy partner, sit down! how's it going".split(" ")
+    arr = string.split(" ")
     #Iterate through the dictionary array
     dictionary.each do |word|
         #Set increment to 0
