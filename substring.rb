@@ -23,5 +23,6 @@ dictionary.each do |word|
         end
     end
 end
+word_collection
 #Invoke a method that will pass in inputs, string and dictionary and return a hash
 #substrings("below", dictionary)
