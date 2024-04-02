@@ -11,7 +11,7 @@ dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 #Print the substring dictionary[0]
 #Repeat the process
 dictionary.each do |word|
-    if "below".include?(word)
+    if "below".downcase.include?(word)
         puts word
     end
 end
