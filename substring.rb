@@ -23,6 +23,7 @@ dictionary.each do |word|
         end
     end
 end
+#Return the hash that will be displayed
 word_collection
 #Invoke a method that will pass in inputs, string and dictionary and return a hash
 #substrings("below", dictionary)
