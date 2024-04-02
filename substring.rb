@@ -1,3 +1,7 @@
+require 'pry-byebug'
+
+binding.pry
+
 #Create an array that will store a list of words similar to a dictionary
 dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 "low", "own", "part", "partner", "sit"]
