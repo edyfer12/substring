@@ -5,6 +5,7 @@ binding.pry
 #Create an array that will store a list of words similar to a dictionary
 dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 "low", "own", "part", "partner", "sit"]
+def substrings(string, dictionary)
 #Create a hash collection to store words of dictionary as a key and number of words as value
 word_collection = {}
 #Convert the string into an array
@@ -25,5 +26,6 @@ dictionary.each do |word|
 end
 #Return the hash that will be displayed
 word_collection
+end
 #Invoke a method that will pass in inputs, string and dictionary and return a hash
 substrings("below", dictionary)
