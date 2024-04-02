@@ -9,16 +9,16 @@ dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 word_collection = {}
 #Convert the string into an array
 arr = "howdy partner, sit down! how's it going".split(" ")
-#From the array, check if the element includes the substring in the dictionary
-#Add word as a key to the hash
-#Increment the word count of the key as a value
-#Repeat the process
+#Iterate through the dictionary array
 dictionary.each do |word|
     #Set increment to 0
     increment = 0
+    #Iterate through the array that are a set of inputs broken down
     arr.each do |substring|
         if substring.include?(word)
+            #Increment the variable by 1
             increment+=1
+            #Set the key of the word collection to the increment value
             word_collection[word] = increment
         end
     end
