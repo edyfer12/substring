@@ -16,7 +16,7 @@ def substrings(string, dictionary)
         increment = 0
         #Iterate through the array that are a set of inputs broken down
         arr.each do |substring|
-            if substring.include?(word)
+            if substring.downcase.include?(word)
                 #Increment the variable by 1
                 increment+=1
                 #Set the key of the word collection to the increment value
@@ -28,4 +28,4 @@ def substrings(string, dictionary)
     word_collection
 end
 #Invoke a method that will pass in inputs, string and dictionary and return a hash
-substrings("below", dictionary)
+substrings("Howdy partner, sit down! How's it going", dictionary)
