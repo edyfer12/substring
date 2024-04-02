@@ -28,4 +28,4 @@ def substrings(string, dictionary)
     word_collection
 end
 #Invoke a method that will pass in inputs, string and dictionary and return a hash
-substrings("Howdy partner, sit down! How's it going", dictionary)
+puts substrings("Howdy partner, sit down! How's it going", dictionary)
